@@ -16,6 +16,7 @@ export function Background({ children }) {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundImage: `url(${background})`,
+        display: "flex",
       }}
     >
       {children}
@@ -29,17 +30,15 @@ export default function Wrapper({ children }) {
       <div
         classname="infoContainer"
         style={{
-          position: "absolute",
-          left: "62%",
-          top: "50%",
-          transform: "translate(-50%, -50%)",
+          position: "relative",
           backgroundColor: "white",
-          height: "600px",
-          width: "55%",
+          height: "80vh",
+          width: "80%",
           textAlign: "left",
           borderRadius: "25px",
           boxShadow: "3px 3px grey",
           overflowY: "auto",
+          margin: "auto",
         }}
       >
         {children}
