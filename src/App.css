@@ -67,10 +67,18 @@
 }
 
 p {
-  padding: 30px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
   line-height: 1.5;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.links {
+  text-align: left;
 }

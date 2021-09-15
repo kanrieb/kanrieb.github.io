@@ -1,79 +1,32 @@
 import React from "react";
-import '../App.css';
-import {Navigation} from 'react-minimal-side-navigation';
-import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+import "../App.css";
+import { Navigation } from "react-minimal-side-navigation";
+import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import Icon from "awesome-react-icons";
 import avatar from "../images/avatar.jpg";
 import { useHistory, useLocation } from "react-router-dom";
-import { Route , withRouter} from 'react-router-dom';
+import { Route, withRouter } from "react-router-dom";
 
-
-export function Nav({ children }) {
+export function LocalNav({ children }) {
   return (
-    <div style={{ margin: 0, width: 400, height: "100vh", textAlign: 'center', 
-     backgroundColor: "#f5f5f5"}}>
+    <div
+      style={{
+        margin: 0,
+        width: 400,
+        height: "100vh",
+        textAlign: "center",
+        backgroundColor: "#f5f5f5",
+      }}
+    >
       {children}
     </div>
-  )
+  );
 }
 
 const NavBar = () => {
   let history = useHistory();
 
-  return (
-    <div className="App">
-      <Nav>
-      <div className="nav-heading ">
-      <img src={avatar} alt="Avatar" className="Avatar"/>
-      <br />
-          <span className="nav-name"> Kathryn Rieb
-          </span>
-          <br />
-          <span className="nav-sub">
-            Software Engineering Student 
-          </span>
-    </div>
-    
-    <Navigation
-            onSelect={({itemId}) => {
-              history.push({itemId});
-            }}
-            items={[
-              {
-                title: 'About',
-                itemId: '/',
-                elemBefore: () => <Icon name="user" />,                
-              },
-              {
-                title: 'Education',
-                itemId: '/education',
-                elemBefore: () => <Icon name="book" />,
+  return <div className="App"></div>;
+};
 
-              },
-              {
-                title: 'Experience',
-                itemId: '/experience',
-                elemBefore: () => <Icon name="briefcase" />,
-
-              },
-              {
-                title: 'Skills',
-                itemId: '/skills',
-                elemBefore: () => <Icon name="sun" />,
-
-              },
-              {
-                title: 'Projects',
-                itemId: '/projects',
-                elemBefore: () => <Icon name="tag" />,
-
-              },
-              
-            ]}
-          />
-        </Nav>
-    </div>
-  );
-}
-
-export default NavBar;
+export default LocalNav;

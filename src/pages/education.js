@@ -1,24 +1,14 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import "../App.css";
+import Wrapper from "../components/wrapper.js";
 
 const EducationPage = () => {
-    return(
-        <div className="App">
-        <header className="App-header">
-        <p id="home">
-          Edit <code>src/App.js</code> and save 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      </div>
-    )
-}
+  return (
+    <Wrapper>
+      <h1>Education</h1>
+      <p></p>
+    </Wrapper>
+  );
+};
 
 export default EducationPage;

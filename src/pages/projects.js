@@ -1,25 +1,14 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import "../App.css";
+import Wrapper from "../components/wrapper.js";
 
 //include skills here too!
 const ProjectsPage = () => {
-    return(
-        <div className="App">
-        <header className="App-header">
-        <p id="home">
-          Edit <code>src/App.js</code> 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      </div>
-    )
-}
+  return (
+    <Wrapper>
+      <h1>Projects</h1>
+    </Wrapper>
+  );
+};
 
 export default ProjectsPage;
