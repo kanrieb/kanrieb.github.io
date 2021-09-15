@@ -12,7 +12,7 @@ export function LocalNav({ children }) {
     <div
       style={{
         margin: 0,
-        width: 400,
+        width: 350,
         height: "100vh",
         textAlign: "center",
         backgroundColor: "#f5f5f5",

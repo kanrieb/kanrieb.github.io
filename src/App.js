@@ -63,23 +63,24 @@ function App() {
                   variant="tabs"
                 >
                   <Nav.Link href="/">
-                    <Icon name="user" />
+                    {/* <Icon name="user" /> */}
                     About
                   </Nav.Link>
                   <Nav.Link href="/education">
-                    <Icon name="book" />
+                    {/* <Icon name="book" /> */}
                     Education
                   </Nav.Link>
                   <Nav.Link href="/experience">
-                    <Icon name="briefcase" /> Experience
+                    {/* <Icon name="briefcase" />  */}
+                    Experience
                   </Nav.Link>
                   <Nav.Link href="/projects">
-                    <Icon name="tag" />
+                    {/* <Icon name="tag" /> */}
                     Projects
                   </Nav.Link>
                   <Nav.Link href="/skills">
                     {" "}
-                    <Icon name="sun" />
+                    {/* <Icon name="sun" /> */}
                     Skills
                   </Nav.Link>
                 </Nav>

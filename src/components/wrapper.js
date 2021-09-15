@@ -22,7 +22,7 @@ export default function Wrapper({ children }) {
         classname="infoContainer"
         style={{
           position: "absolute",
-          left: "65%",
+          left: "62%",
           top: "50%",
           transform: "translate(-50%, -50%)",
           backgroundColor: "white",

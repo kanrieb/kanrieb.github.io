@@ -67,9 +67,7 @@
 }
 
 p {
-  padding-bottom: 30px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 40px;
   line-height: 1.5;
 }
 
@@ -80,5 +78,14 @@ h1 {
 }
 
 .links {
-  text-align: left;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-tabs {
+  border-bottom: 0px !important;
 }
