@@ -10,8 +10,8 @@ import { Route , withRouter} from 'react-router-dom';
 
 export function Nav({ children }) {
   return (
-    <div style={{ margin: 0, width: 400, height: "100%", textAlign: 'center', 
-     backgroundColor: "white"}}>
+    <div style={{ margin: 0, width: 400, height: "100vh", textAlign: 'center', 
+     backgroundColor: "#f5f5f5"}}>
       {children}
     </div>
   )
@@ -26,8 +26,7 @@ const NavBar = () => {
       <div className="nav-heading ">
       <img src={avatar} alt="Avatar" className="Avatar"/>
       <br />
-          <span className="nav-name">
-            Kathryn Rieb
+          <span className="nav-name"> Kathryn Rieb
           </span>
           <br />
           <span className="nav-sub">
@@ -37,7 +36,7 @@ const NavBar = () => {
     
     <Navigation
             onSelect={({itemId}) => {
-              history.push(itemId);
+              history.push({itemId});
             }}
             items={[
               {
@@ -58,11 +57,18 @@ const NavBar = () => {
 
               },
               {
-                title: 'Projects',
-                itemId: '/projects',
-                elemBefore: () => <Icon name="search" />,
+                title: 'Skills',
+                itemId: '/skills',
+                elemBefore: () => <Icon name="sun" />,
 
               },
+              {
+                title: 'Projects',
+                itemId: '/projects',
+                elemBefore: () => <Icon name="tag" />,
+
+              },
+              
             ]}
           />
         </Nav>

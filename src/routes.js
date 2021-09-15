@@ -5,6 +5,7 @@ import AboutPage from "./pages/aboutMe";
 import ProjectsPage from "./pages/projects";
 import EducationPage from "./pages/education";
 import ExperiencePage from "./pages/experience";
+import SkillsPage from "./pages/skills";
 
 
 const Routes = () => {
@@ -22,6 +23,9 @@ const Routes = () => {
           </Route>
           <Route path="/experience">
             <ExperiencePage />
+          </Route>
+          <Route path="/skills">
+            <SkillsPage />
           </Route>
         </Switch>
       </BrowserRouter>

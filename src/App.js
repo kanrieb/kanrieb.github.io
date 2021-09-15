@@ -6,9 +6,6 @@ import { useHistory, useLocation } from "react-router-dom";
 import Routes from "./routes";
 
 
-
-
-
 function App() {
   const history = useHistory();
 
