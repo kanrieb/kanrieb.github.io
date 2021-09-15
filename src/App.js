@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+import NavBar from "./components/navbar-layout";
+import { useHistory, useLocation } from "react-router-dom";
+import Routes from "./routes";
+
+
+
+
 
 function App() {
+  const history = useHistory();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+    <div className="flexbox-container">
+      <div><NavBar /></div>
+      <div className="two"><Routes /></div>
+
+
+    </div>
     </div>
   );
 }

@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.two {
+  width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +46,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-heading {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.nav-name {
+  font-size: large;
+}
+.nav-sub {
+  color: grey;
+}
+
+.Avatar {
+  padding: 20px;
+  width: 180px;
 }
