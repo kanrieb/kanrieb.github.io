@@ -23,10 +23,4 @@ export function LocalNav({ children }) {
   );
 }
 
-const NavBar = () => {
-  let history = useHistory();
-
-  return <div className="App"></div>;
-};
-
 export default LocalNav;

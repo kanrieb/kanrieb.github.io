@@ -1,13 +1,13 @@
 import React from "react";
 import "../App.css";
-import Wrapper from "../components/wrapper.js";
+import { Background } from "../components/wrapper.js";
 
 //include skills here too!
 const ExperiencePage = () => {
   return (
-    <Wrapper>
+    <Background>
       <h1>Experience</h1>
-    </Wrapper>
+    </Background>
   );
 };
 

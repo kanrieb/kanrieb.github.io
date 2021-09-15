@@ -64,24 +64,24 @@ function App() {
                 >
                   <Nav.Link href="/">
                     {/* <Icon name="user" /> */}
-                    About
+                    ABOUT
                   </Nav.Link>
                   <Nav.Link href="/education">
                     {/* <Icon name="book" /> */}
-                    Education
+                    EDUCATION
                   </Nav.Link>
                   <Nav.Link href="/experience">
                     {/* <Icon name="briefcase" />  */}
-                    Experience
+                    EXPERIENCE
                   </Nav.Link>
                   <Nav.Link href="/projects">
                     {/* <Icon name="tag" /> */}
-                    Projects
+                    PROJECTS
                   </Nav.Link>
                   <Nav.Link href="/skills">
                     {" "}
                     {/* <Icon name="sun" /> */}
-                    Skills
+                    SKILLS
                   </Nav.Link>
                 </Nav>
               </div>

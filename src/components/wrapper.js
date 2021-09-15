@@ -5,7 +5,7 @@ import background from "../images/gold.jpg";
 import { useHistory, useLocation } from "react-router-dom";
 import { Route, withRouter } from "react-router-dom";
 
-export default function Wrapper({ children }) {
+export function Background({ children }) {
   return (
     <div
       className="back"
@@ -18,6 +18,14 @@ export default function Wrapper({ children }) {
         backgroundImage: `url(${background})`,
       }}
     >
+      {children}
+    </div>
+  );
+}
+
+export default function Wrapper({ children }) {
+  return (
+    <Background>
       <div
         classname="infoContainer"
         style={{
@@ -36,6 +44,6 @@ export default function Wrapper({ children }) {
       >
         {children}
       </div>
-    </div>
+    </Background>
   );
 }
