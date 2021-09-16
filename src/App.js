@@ -41,7 +41,9 @@ const routes = [
 ];
 
 function App() {
-  const def = window.location.pathname || "/";
+  let def = window.location.pathname;
+
+  console.log("def " + def);
 
   return (
     <div>
