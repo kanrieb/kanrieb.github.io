@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/kathryn-rieb/static/css/main.3a078bb4.chunk.css",
+    "main.js": "/kathryn-rieb/static/js/main.f24dab66.chunk.js",
+    "main.js.map": "/kathryn-rieb/static/js/main.f24dab66.chunk.js.map",
+    "runtime-main.js": "/kathryn-rieb/static/js/runtime-main.4162c928.js",
+    "runtime-main.js.map": "/kathryn-rieb/static/js/runtime-main.4162c928.js.map",
+    "static/css/2.d3b9284f.chunk.css": "/kathryn-rieb/static/css/2.d3b9284f.chunk.css",
+    "static/js/2.b8e4c241.chunk.js": "/kathryn-rieb/static/js/2.b8e4c241.chunk.js",
+    "static/js/2.b8e4c241.chunk.js.map": "/kathryn-rieb/static/js/2.b8e4c241.chunk.js.map",
+    "static/js/3.d21c2469.chunk.js": "/kathryn-rieb/static/js/3.d21c2469.chunk.js",
+    "static/js/3.d21c2469.chunk.js.map": "/kathryn-rieb/static/js/3.d21c2469.chunk.js.map",
+    "index.html": "/kathryn-rieb/index.html",
+    "static/css/2.d3b9284f.chunk.css.map": "/kathryn-rieb/static/css/2.d3b9284f.chunk.css.map",
+    "static/css/main.3a078bb4.chunk.css.map": "/kathryn-rieb/static/css/main.3a078bb4.chunk.css.map",
+    "static/js/2.b8e4c241.chunk.js.LICENSE.txt": "/kathryn-rieb/static/js/2.b8e4c241.chunk.js.LICENSE.txt",
+    "static/media/avatar.c7420a18.jpg": "/kathryn-rieb/static/media/avatar.c7420a18.jpg",
+    "static/media/gold.db205eb9.jpg": "/kathryn-rieb/static/media/gold.db205eb9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4162c928.js",
+    "static/css/2.d3b9284f.chunk.css",
+    "static/js/2.b8e4c241.chunk.js",
+    "static/css/main.3a078bb4.chunk.css",
+    "static/js/main.f24dab66.chunk.js"
+  ]
+}
