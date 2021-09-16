@@ -14,6 +14,7 @@ import ExperiencePage from "./pages/experience";
 import SkillsPage from "./pages/skills";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/js/all.js";
 
 const routes = [
   {
@@ -40,7 +41,7 @@ const routes = [
 ];
 
 function App() {
-  const def = window.location.pathname;
+  const def = window.location.pathname || "/";
 
   return (
     <div>
@@ -85,6 +86,28 @@ function App() {
                   </Nav.Link>
                 </Nav>
               </div>
+              <ul class="social-container">
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/kanrieb"
+                    title="Github"
+                  >
+                    <i class="fab fa-github"></i>{" "}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.linkedin.com/in/kathryn-rieb-b38255189/"
+                    title="Connect on Linkedin"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
             </LocalNav>
           </div>
           <div className="two">
