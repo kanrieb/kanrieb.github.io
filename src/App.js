@@ -18,32 +18,30 @@ import "@fortawesome/fontawesome-free/js/all.js";
 
 const routes = [
   {
-    path: "/",
+    path: "/kathryn-rieb",
     exact: true,
     main: () => <AboutPage />,
   },
   {
-    path: "/education",
+    path: "/kathryn-rieb/education",
     main: () => <EducationPage />,
   },
   {
-    path: "/experience",
+    path: "/kathryn-rieb/experience",
     main: () => <ExperiencePage />,
   },
   {
-    path: "/projects",
+    path: "/kathryn-rieb/projects",
     main: () => <ProjectsPage />,
   },
   {
-    path: "/skills",
+    path: "/kathryn-rieb/skills",
     main: () => <SkillsPage />,
   },
 ];
 
 function App() {
   let def = window.location.pathname;
-
-  console.log("def " + def);
 
   return (
     <div>
@@ -65,23 +63,23 @@ function App() {
                   className="flex-column"
                   variant="tabs"
                 >
-                  <Nav.Link href="/">
+                  <Nav.Link href="/kathryn-rieb/">
                     {/* <Icon name="user" /> */}
                     ABOUT
                   </Nav.Link>
-                  <Nav.Link href="/education">
+                  <Nav.Link href="/kathryn-rieb/education">
                     {/* <Icon name="book" /> */}
                     EDUCATION
                   </Nav.Link>
-                  <Nav.Link href="/experience">
+                  <Nav.Link href="/kathryn-rieb/experience">
                     {/* <Icon name="briefcase" />  */}
                     EXPERIENCE
                   </Nav.Link>
-                  <Nav.Link href="/projects">
+                  <Nav.Link href="/kathryn-rieb/projects">
                     {/* <Icon name="tag" /> */}
                     PROJECTS
                   </Nav.Link>
-                  <Nav.Link href="/skills">
+                  <Nav.Link href="/kathryn-rieb/skills">
                     {" "}
                     {/* <Icon name="sun" /> */}
                     SKILLS
