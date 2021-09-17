@@ -67,14 +67,29 @@
 }
 
 p {
-  padding: 40px;
   line-height: 1.5;
+  padding-top: 15px;
+}
+
+p1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact {
+  padding-top: 20px;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  padding-top: 30px;
-  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.about-text {
+  padding: 55px;
+}
+
+.sub {
+  color: grey;
 }
 
 .links {
@@ -90,18 +105,47 @@ h1 {
 .nav-tabs {
   border-bottom: 0px !important;
 }
-
 .social-container {
-  position: absolute;
-  bottom: 0px;
+  display: flex;
   text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.col {
+  flex: 1;
+  padding-top: 80px;
 }
 
-ul {
-  list-style-type: none;
-  text-align: center;
+.flex-about {
+  display: flex;
+  height: 100%;
 }
-li {
-  float: left;
+
+.about-col {
+  flex: 1;
+}
+
+*.icon-grey {
+  color: black;
+  opacity: 0.3;
+}
+
+.aboutImg {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  max-width: 90%;
+  max-height: 90%;
+  height: auto;
+  width: auto;
+  border-radius: 25px;
+  margin-top: 6%;
+}
+
+.skill-box {
+  padding: 40px;
+}
+
+.skill-bars {
   padding: 30px;
 }

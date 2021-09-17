@@ -1,8 +1,6 @@
 import "./App.css";
 import React from "react";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
-
-import Icon from "awesome-react-icons";
 import avatar from "./images/avatar.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LocalNav from "./components/navbar-layout";
@@ -86,28 +84,38 @@ function App() {
                   </Nav.Link>
                 </Nav>
               </div>
-              <ul class="social-container">
-                <li>
+              <div class="social-container">
+                <div class="col">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/kanrieb"
                     title="Github"
                   >
-                    <i class="fab fa-github"></i>{" "}
+                    <i class="fab fa-github fa-lg icon-grey"></i>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="col">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/kathryn-rieb-b38255189/"
                     title="Connect on Linkedin"
                   >
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-linkedin fa-lg icon-grey"></i>
                   </a>
-                </li>
-              </ul>
+                </div>
+                <div class="col">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.devpost.com/kanrieb"
+                    title="Check out my Devpost"
+                  >
+                    <i class="fas fa-laptop-code fa-lg icon-grey"></i>
+                  </a>
+                </div>
+              </div>
             </LocalNav>
           </div>
           <div className="two">
