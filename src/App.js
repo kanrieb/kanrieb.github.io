@@ -20,10 +20,10 @@ const routes = [
     exact: true,
     main: () => <AboutPage />,
   },
-  {
-    path: "/kathryn-rieb/education",
-    main: () => <EducationPage />,
-  },
+  // {
+  //   path: "/kathryn-rieb/education",
+  //   main: () => <EducationPage />,
+  // },
   {
     path: "/kathryn-rieb/experience",
     main: () => <ExperiencePage />,
@@ -65,10 +65,9 @@ function App() {
                     {/* <Icon name="user" /> */}
                     ABOUT
                   </Nav.Link>
-                  <Nav.Link href="/kathryn-rieb/education">
-                    {/* <Icon name="book" /> */}
+                  {/* <Nav.Link href="/kathryn-rieb/education">
                     EDUCATION
-                  </Nav.Link>
+                  </Nav.Link> */}
                   <Nav.Link href="/kathryn-rieb/experience">
                     {/* <Icon name="briefcase" />  */}
                     EXPERIENCE

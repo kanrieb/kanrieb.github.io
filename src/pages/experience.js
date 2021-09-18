@@ -14,7 +14,6 @@ const ExperiencePage = () => {
       <div
         style={{
           position: "relative",
-          // backgroundColor: "white",
           height: "100vh",
           width: "100%",
           textAlign: "left",
@@ -28,15 +27,41 @@ const ExperiencePage = () => {
         <VerticalTimeline layout="1-column-left">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Sept 2017 - Present"
+            iconStyle={{ background: "green", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Bachelor of Software Engineering
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              The University of Victoria{" "}
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="Sept 2021 - present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             // icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Redbrick</h3>
+            <h3 className="vertical-timeline-element-title">
+              Redbrick - Assembly
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Full-Stack Developer Co-op
             </h4>
-            <p>Assembly</p>
+            <p>
+              Assembly is a digital publishing company housed by Redbrick that
+              implements technology-driven publishing. I began my co-op by
+              developing tests for their various platforms, and then
+              transitioned to working on Statera, which collects and analyzes
+              reader behaviour.
+              <br /> <br />
+              <b>
+                Technical Skills: Version control (Git), Testing (Jest),
+                Javascript/Typescript, CI/CD.
+              </b>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -57,7 +82,7 @@ const ExperiencePage = () => {
               requirements, and ADF interface development. I was placed on a
               Scrum team and completed tickets for each sprint cycle, and it was
               a great environmet to work with more senior developers and learn
-              about larger company code standards. <br /> <br />{" "}
+              about larger company code standards. <br /> <br />
               <b>
                 Technical Skills: Version control (SVN), SQL scripts, Oracle
                 ADF.

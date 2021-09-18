@@ -35,6 +35,7 @@ const SkillsPage = () => {
             colors={colors}
             animationDelay={400}
             animationDuration={2000}
+            height={"5vh"}
           />
         </div>
       </div>

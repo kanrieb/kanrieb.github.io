@@ -21,8 +21,9 @@ const AboutPage = () => {
             <p>
               I am currently pursuing a Software Engineering degree at the
               University of Victoria. I enjoy learning and maintaining a variety
-              of skills, and my projects range from making android apps using
-              SQL databases to creating VR-compatible games in Unity. <br />
+              of skills, and I have done software development work in
+              front/back-end web, database management, and testing. I have also
+              dabbled in mobile app creation and video game development. <br />
               <br />
               Outside of programming, my other interests include volunteering,
               rock climing, reading, and baking.

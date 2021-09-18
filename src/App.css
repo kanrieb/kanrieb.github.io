@@ -69,10 +69,12 @@
 p {
   line-height: 1.5;
   padding-top: 15px;
+  font-size: 16px;
 }
 
 p1 {
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 
 .contact {
@@ -85,7 +87,7 @@ h1 {
 }
 
 .about-text {
-  padding: 55px;
+  padding: 50px;
 }
 
 .sub {
@@ -133,7 +135,7 @@ h1 {
 .aboutImg {
   display: block;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
   max-width: 90%;
   max-height: 90%;
   height: auto;
@@ -147,5 +149,6 @@ h1 {
 }
 
 .skill-bars {
-  padding: 30px;
+  padding: 10px;
+  padding-top: 20px;
 }
