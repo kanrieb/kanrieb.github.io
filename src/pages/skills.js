@@ -25,7 +25,7 @@ const colors = {
 const SkillsPage = () => {
   return (
     <Wrapper>
-      <div class="skill-box">
+      <div class="box">
         <h1>
           <b>Skills</b>
         </h1>

@@ -144,11 +144,15 @@ h1 {
   margin-top: 6%;
 }
 
-.skill-box {
+.box {
   padding: 40px;
 }
 
 .skill-bars {
   padding: 10px;
   padding-top: 20px;
+}
+
+.card-container {
+  width: 1500px !important;
 }

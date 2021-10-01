@@ -23,10 +23,7 @@ const AboutPage = () => {
               University of Victoria. I enjoy learning and maintaining a variety
               of skills, and I have done software development work in
               front/back-end web, database management, and testing. I have also
-              dabbled in mobile app creation and video game development. <br />
-              <br />
-              Outside of programming, my other interests include volunteering,
-              rock climing, reading, and baking.
+              dabbled in mobile app creation and video game development.
             </p>
             <div class="contact">
               <i class="far fa-envelope"></i> <p1>&emsp;kanrieb@gmail.com</p1>{" "}
