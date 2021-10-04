@@ -32,10 +32,10 @@ const routes = [
     path: "/kathryn-rieb/projects",
     main: () => <ProjectsPage />,
   },
-  {
-    path: "/kathryn-rieb/skills",
-    main: () => <SkillsPage />,
-  },
+  // {
+  //   path: "/kathryn-rieb/skills",
+  //   main: () => <SkillsPage />,
+  // },
 ];
 
 function App() {
@@ -76,11 +76,9 @@ function App() {
                     {/* <Icon name="tag" /> */}
                     PROJECTS
                   </Nav.Link>
-                  <Nav.Link href="/kathryn-rieb/skills">
-                    {" "}
-                    {/* <Icon name="sun" /> */}
+                  {/* <Nav.Link href="/kathryn-rieb/skills">
                     SKILLS
-                  </Nav.Link>
+                  </Nav.Link> */}
                 </Nav>
               </div>
               <div class="social-container">

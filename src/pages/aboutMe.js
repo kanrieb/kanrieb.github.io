@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Wrapper from "../components/wrapper.js";
 import surf from "../images/surfing.png";
+import hiking from "../images/hiking.jpg";
 import "@fortawesome/fontawesome-free/js/all.js";
 
 //include skills here too!
@@ -10,7 +11,7 @@ const AboutPage = () => {
     <Wrapper>
       <div class="flex-about">
         <div class="about-col">
-          <img src={surf} alt="Surfing in Tofino" class="aboutImg" />
+          <img src={hiking} alt="Surfing in Tofino" class="aboutImg" />
         </div>
         <div class="about-col">
           <div class="about-text">

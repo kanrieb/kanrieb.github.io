@@ -2,9 +2,9 @@ import React from "react";
 import { ProductCard } from "react-ui-cards";
 import "../App.css";
 import Wrapper from "../components/wrapper.js";
+import { Background } from "../components/wrapper.js";
 import goodfriend0 from "../images/project-pictures/goodfriend0.jpeg";
 import checkfront from "../images/project-pictures/checkfront.png";
-
 import tree from "../images/project-pictures/decision-tree.png";
 
 export function ProfileCard({
@@ -43,12 +43,21 @@ export function ProfileCard({
 //include skills here too!
 const ProjectsPage = () => {
   return (
-    <Wrapper>
-      <div class="box">
-        <h1>
-          <b>Projects</b>
-        </h1>
-
+    <Background>
+      <div
+        class="box"
+        style={{
+          position: "relative",
+          height: "100vh",
+          width: "100%",
+          textAlign: "left",
+          borderRadius: "25px",
+          boxShadow: "3px 3px grey",
+          overflowY: "auto",
+          paddingRight: "100px",
+          paddingLeft: "100px",
+        }}
+      >
         <div className="card-container">
           <ProfileCard
             title="Checkfront Daily Companion"
@@ -84,7 +93,7 @@ const ProjectsPage = () => {
           />
         </div>
       </div>
-    </Wrapper>
+    </Background>
   );
 };
 
