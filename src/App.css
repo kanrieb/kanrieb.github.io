@@ -154,5 +154,69 @@ h1 {
 }
 
 .card-container {
-  width: 1500px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.projectCard {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 40% auto;
+  border-radius: 5px 0 0 5px;
+  box-shadow: -2px 9px 20px -5px rgb(0 0 0 / 50%);
+}
+
+.card-container > div {
+  margin-top: 30px;
+}
+.pictureContainer {
+  position: relative;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(235, 233, 211);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.projectPicture {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.projectDesc {
+  padding: 1.5rem 2rem;
+  background-color: #ecf0f1;
+  color: darkslategrey;
+}
+
+.projectDesc > h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  color: #2c3e50;
+}
+
+button {
+  padding: 0.7rem 1.2rem !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 3px;
+  color: #ecf0f1;
+  background-color: #1abc9c;
+  border-radius: 0.25rem !important;
+  transition: 0.25s;
+  border: none;
+}
+
+.projectDate {
+  position: absolute;
+  background-color: rgba(44, 62, 80, 0.95);
+  color: #ecf0f1;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.5rem;
+  top: 1rem;
+  left: 1rem;
 }
