@@ -45,7 +45,7 @@ function App() {
     <div>
       <Router>
         <div className="flexbox-container">
-          <div>
+          <div className="one">
             <LocalNav>
               <div className="nav-heading ">
                 <img src={avatar} alt="Avatar" className="Avatar" />

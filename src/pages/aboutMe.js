@@ -11,11 +11,11 @@ const AboutPage = () => {
     <Wrapper>
       <div class="flex-about">
         <div class="about-col">
-          <img src={hiking} alt="Surfing in Tofino" class="aboutImg" />
+          <img src={hiking} class="aboutImg" />
         </div>
         <div class="about-col">
           <div class="about-text">
-            <div class="sub">HELLO EVERYONE, I AM</div>
+            <div class="sub">HELLO, I AM</div>
             <h1>
               <b>KATHRYN RIEB</b>
             </h1>
@@ -24,7 +24,7 @@ const AboutPage = () => {
               University of Victoria. I enjoy learning and maintaining a variety
               of skills, and I have done software development work in
               front/back-end web, database management, and testing. I have also
-              dabbled in mobile app creation and video game development.
+              explored mobile app creation and video game development.
             </p>
             <div class="contact">
               <i class="far fa-envelope"></i> <p1>&emsp;kanrieb@gmail.com</p1>{" "}

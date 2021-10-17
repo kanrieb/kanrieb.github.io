@@ -32,7 +32,7 @@ export default function Wrapper({ children }) {
         style={{
           position: "relative",
           backgroundColor: "white",
-          height: "80vh",
+          maxHeight: "80vh",
           width: "80%",
           textAlign: "left",
           borderRadius: "25px",

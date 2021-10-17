@@ -9,6 +9,10 @@
   justify-content: flex-start;
 }
 
+.one {
+  width: 30%;
+}
+
 .two {
   width: 100%;
 }
@@ -88,6 +92,7 @@ h1 {
 
 .about-text {
   padding: 50px;
+  padding-left: 20px;
 }
 
 .sub {
@@ -125,6 +130,7 @@ h1 {
 
 .about-col {
   flex: 1;
+  display: flex;
 }
 
 *.icon-grey {
@@ -134,14 +140,12 @@ h1 {
 
 .aboutImg {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   max-width: 90%;
   max-height: 90%;
   height: auto;
   width: auto;
   border-radius: 25px;
-  margin-top: 6%;
 }
 
 .box {
