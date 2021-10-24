@@ -1,3 +1,3 @@
-Personal website written by Kathryn Rieb. Acts as an online resume and portfolio. View at: kanrieb.github.io/kathryn-rieb/
+Personal website written by Kathryn Rieb. Acts as an online resume and portfolio. View at: kanrieb.github.io/
 
-This website was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For local development, download and run `npm install` then `npm start` and navigate to localhost.
