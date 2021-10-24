@@ -3,6 +3,112 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 380px) {
+  .two .about-text p {
+    font-size: 0.8125rem;
+  }
+  .two .card-container .projectDesc p {
+    font-size: 0.8125rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .back .flex-about {
+    flex-direction: column;
+  }
+  .back .about-text {
+    padding: 0px;
+  }
+  .about-col2 {
+    padding: 20px;
+  }
+  .about-col1 {
+    visibility: hidden;
+  }
+  .about-col1 .aboutImg {
+    height: 0px;
+    width: 0px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  @media only screen and (max-height: 920px) {
+    .one .nav-heading .Avatar {
+      visibility: hidden;
+      padding-top: 0px;
+      width: 0px;
+    }
+    .one .nav-heading {
+      padding: 10px;
+      padding-top: 0px;
+    }
+  }
+
+  .flexbox-container {
+    flex-direction: column !important;
+  }
+  .flexbox-container .one {
+    width: auto;
+    min-width: 0px;
+    height: 25vh;
+    min-height: 150px;
+  }
+
+  .social-container {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+  .one {
+    position: relative;
+  }
+  .nav-heading .Avatar {
+    padding: 0px;
+    width: 10vh;
+  }
+  .one .links {
+    padding: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .links .flex-column {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+  }
+  .nav-link {
+    flex: 1;
+  }
+  .col {
+    padding: 10px;
+  }
+
+  .flexbox-container .two {
+    min-width: 0px;
+  }
+
+  .two .back {
+    min-height: 0;
+    min-width: 0;
+    height: 75vh;
+  }
+
+  .experienceContainer {
+    padding: 0px !important;
+  }
+  .box {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .projectDesc {
+    padding: 5px !important;
+  }
+}
+
 .flexbox-container {
   display: flex;
   flex-direction: row;
@@ -19,17 +125,6 @@
   width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -42,15 +137,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .nav-heading {
@@ -194,7 +280,7 @@ h1 {
 }
 
 .projectDesc {
-  padding: 1.5rem 2rem;
+  padding: 30px;
   background-color: rgb(255, 255, 255);
   color: darkslategrey;
 }
@@ -226,4 +312,15 @@ button {
   padding: 0.125rem 0.5rem;
   top: 1rem;
   left: 1rem;
+}
+
+.back {
+  margin: 0;
+  height: 100vh;
+  min-height: 560px;
+  min-width: 850px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: flex;
 }

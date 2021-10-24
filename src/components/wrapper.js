@@ -10,15 +10,7 @@ export function Background({ children }) {
     <div
       className="back"
       style={{
-        margin: 0,
-        height: "100vh",
-        minHeight: "560px",
-        minWidth: "850px",
-        textAlign: "center",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
         backgroundImage: `url(${background})`,
-        display: "flex",
       }}
     >
       {children}
@@ -30,11 +22,11 @@ export default function Wrapper({ children }) {
   return (
     <Background>
       <div
-        classname="infoContainer"
+        className="infoContainer"
         style={{
           position: "relative",
           backgroundColor: "white",
-          maxHeight: "80vh",
+          maxHeight: "80%",
           width: "80%",
           textAlign: "left",
           borderRadius: "25px",

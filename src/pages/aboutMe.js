@@ -9,13 +9,13 @@ import "@fortawesome/fontawesome-free/js/all.js";
 const AboutPage = () => {
   return (
     <Wrapper>
-      <div class="flex-about">
-        <div class="about-col">
-          <img src={hiking} class="aboutImg" />
+      <div className="flex-about">
+        <div className="about-col about-col1">
+          <img src={hiking} className="aboutImg" />
         </div>
-        <div class="about-col">
-          <div class="about-text">
-            <div class="sub">HELLO, I AM</div>
+        <div className="about-col about-col2">
+          <div className="about-text">
+            <div className="sub">HELLO, I AM</div>
             <h1>
               <b>KATHRYN RIEB</b>
             </h1>
@@ -26,10 +26,11 @@ const AboutPage = () => {
               front/back-end web, database management, and testing. I have also
               explored mobile app creation and video game development.
             </p>
-            <div class="contact">
-              <i class="far fa-envelope"></i> <p1>&emsp;kanrieb@gmail.com</p1>{" "}
+            <div className="contact">
+              <i className="far fa-envelope"></i>{" "}
+              <p1>&emsp;kanrieb@gmail.com</p1>
               <br />
-              <i class="fas fa-map-marker-alt"></i>{" "}
+              <i className="fas fa-map-marker-alt"></i>{" "}
               <p1>&emsp;&nbsp;Victoria, BC</p1>
             </div>
           </div>

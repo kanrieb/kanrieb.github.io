@@ -12,6 +12,7 @@ const ExperiencePage = () => {
   return (
     <Background>
       <div
+        className="experienceContainer"
         style={{
           position: "relative",
           height: "100%",

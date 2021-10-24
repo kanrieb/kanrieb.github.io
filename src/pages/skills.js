@@ -25,11 +25,11 @@ const colors = {
 const SkillsPage = () => {
   return (
     <Wrapper>
-      <div class="box">
+      <div className="box">
         <h1>
           <b>Skills</b>
         </h1>
-        <div class="skill-bars">
+        <div className="skill-bars">
           <SkillBar
             skills={skills}
             colors={colors}

@@ -81,35 +81,35 @@ function App() {
                   </Nav.Link> */}
                 </Nav>
               </div>
-              <div class="social-container">
-                <div class="col">
+              <div className="social-container">
+                <div className="col">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/kanrieb"
                     title="Github"
                   >
-                    <i class="fab fa-github fa-lg icon-grey"></i>
+                    <i className="fab fa-github fa-lg icon-grey"></i>
                   </a>
                 </div>
-                <div class="col">
+                <div className="col">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/kathryn-rieb-b38255189/"
                     title="Connect on Linkedin"
                   >
-                    <i class="fab fa-linkedin fa-lg icon-grey"></i>
+                    <i className="fab fa-linkedin fa-lg icon-grey"></i>
                   </a>
                 </div>
-                <div class="col">
+                <div className="col">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.devpost.com/kanrieb"
                     title="Check out my Devpost"
                   >
-                    <i class="fas fa-laptop-code fa-lg icon-grey"></i>
+                    <i className="fas fa-laptop-code fa-lg icon-grey"></i>
                   </a>
                 </div>
               </div>

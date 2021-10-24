@@ -45,7 +45,7 @@ const ProjectsPage = () => {
   return (
     <Background>
       <div
-        class="box"
+        className="box"
         style={{
           position: "relative",
           height: "100%",
