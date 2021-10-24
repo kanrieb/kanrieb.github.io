@@ -16,7 +16,7 @@ import "@fortawesome/fontawesome-free/js/all.js";
 
 const routes = [
   {
-    path: "/kathryn-rieb",
+    path: "/",
     exact: true,
     main: () => <AboutPage />,
   },
@@ -25,11 +25,11 @@ const routes = [
   //   main: () => <EducationPage />,
   // },
   {
-    path: "/kathryn-rieb/experience",
+    path: "/experience",
     main: () => <ExperiencePage />,
   },
   {
-    path: "/kathryn-rieb/projects",
+    path: "/projects",
     main: () => <ProjectsPage />,
   },
   // {
@@ -61,18 +61,18 @@ function App() {
                   className="flex-column"
                   variant="tabs"
                 >
-                  <Nav.Link href="/kathryn-rieb/">
+                  <Nav.Link href="/">
                     {/* <Icon name="user" /> */}
                     ABOUT
                   </Nav.Link>
                   {/* <Nav.Link href="/kathryn-rieb/education">
                     EDUCATION
                   </Nav.Link> */}
-                  <Nav.Link href="/kathryn-rieb/experience">
+                  <Nav.Link href="/experience">
                     {/* <Icon name="briefcase" />  */}
                     EXPERIENCE
                   </Nav.Link>
-                  <Nav.Link href="/kathryn-rieb/projects">
+                  <Nav.Link href="/projects">
                     {/* <Icon name="tag" /> */}
                     PROJECTS
                   </Nav.Link>
