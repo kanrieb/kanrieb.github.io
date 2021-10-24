@@ -48,11 +48,9 @@ const ProjectsPage = () => {
         class="box"
         style={{
           position: "relative",
-          height: "100vh",
+          height: "100%",
           width: "100%",
           textAlign: "left",
-          borderRadius: "25px",
-          boxShadow: "3px 3px grey",
           overflowY: "auto",
           paddingRight: "100px",
           paddingLeft: "100px",

@@ -12,6 +12,8 @@ export function Background({ children }) {
       style={{
         margin: 0,
         height: "100vh",
+        minHeight: "560px",
+        minWidth: "850px",
         textAlign: "center",
         backgroundPosition: "center",
         backgroundSize: "cover",
