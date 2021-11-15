@@ -34,12 +34,12 @@ const ExperiencePage = () => {
               Bachelor of Software Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              The University of Victoria{" "}
+              The University of Victoria
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Sept 2021 - present"
+            date="Sept - Dec 2021"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             // icon={<WorkIcon />}
           >
@@ -53,12 +53,18 @@ const ExperiencePage = () => {
               Assembly is a digital publishing company housed by Redbrick that
               implements technology-driven publishing. I began my co-op by
               developing tests for their various platforms, and then
-              transitioned to working on Statera, which collects and analyzes
-              reader behaviour.
+              transitioned to working on Statera, which is an internal tool that
+              collects and analyzes site traffic and other data. I streamlined
+              the deployment process for many of the repositories by creating
+              custom pipelines using AWS, with the ability to post messages to
+              Slack channels and update internal deploy tracking methods.
+              Additionally, I implemented new features and fixed bugs in the UI
+              throughout my co-op in response to user feedback.
               <br /> <br />
               <b>
-                Technical Skills: Version control (Git), Testing (Jest),
-                Javascript/Typescript, CI/CD.
+                Technical Skills: Version control (Git), Testing
+                (Jest/Cucumber), Javascript/Typescript, CI/CD, AWS
+                (CodePipeline, Cloudformation, Lambda), Golang.
               </b>
             </p>
           </VerticalTimelineElement>

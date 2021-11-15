@@ -12,6 +12,13 @@
   }
 }
 
+@media only screen and (max-width: 460px) {
+  .one .links .nav-link {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.2rem;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .back .flex-about {
     flex-direction: column;

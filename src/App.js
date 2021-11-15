@@ -10,6 +10,7 @@ import ProjectsPage from "./pages/projects";
 import EducationPage from "./pages/education";
 import ExperiencePage from "./pages/experience";
 import SkillsPage from "./pages/skills";
+import Resume from "./pages/resume";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/js/all.js";
@@ -31,6 +32,10 @@ const routes = [
   {
     path: "/projects",
     main: () => <ProjectsPage />,
+  },
+  {
+    path: "/resume",
+    main: () => <Resume />,
   },
   // {
   //   path: "/kathryn-rieb/skills",
@@ -79,6 +84,7 @@ function App() {
                   {/* <Nav.Link href="/kathryn-rieb/skills">
                     SKILLS
                   </Nav.Link> */}
+                  <Nav.Link href="/resume">RESUME</Nav.Link>
                 </Nav>
               </div>
               <div className="social-container">
