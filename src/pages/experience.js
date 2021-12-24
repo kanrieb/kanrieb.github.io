@@ -86,7 +86,7 @@ const ExperiencePage = () => {
               information on thousands of users, updating code to fit client
               requirements, and ADF interface development. I was placed on a
               Scrum team and completed tickets for each sprint cycle, and it was
-              a great environmet to work with more senior developers and learn
+              a great environment to work with more senior developers and learn
               about larger company code standards. <br /> <br />
               <b>
                 Technical Skills: Version control (SVN), SQL scripts, Oracle
