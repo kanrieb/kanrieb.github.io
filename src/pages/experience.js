@@ -111,7 +111,7 @@ const ExperiencePage = () => {
               UVIC Faculty of Engineering. My largest project was creating a
               password security tool that would track the age of passwords, and
               corresponding risk levels of Engineering faculty accounts. This
-              tool displayed any publically-known security breaches that faculty
+              tool displayed any publicly-known security breaches that faculty
               email addresses may have been involved in by running a nightly
               cron job querying an API, and recording the data in a database.
               Through this task I learned the importance of requirements
