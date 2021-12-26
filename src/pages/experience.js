@@ -115,7 +115,7 @@ const ExperiencePage = () => {
               email addresses may have been involved in by running a nightly
               cron job querying an API, and recording the data in a database.
               Through this task I learned the importance of requirements
-              analysis and design functionality. <br /> <br />{" "}
+              analysis and design functionality. <br /> <br />
               <b>
                 Technical Skills: PHP/HTML/JS/CSS web design, complex SQL
                 queries

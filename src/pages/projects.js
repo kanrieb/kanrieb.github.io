@@ -5,6 +5,7 @@ import goodfriend0 from "../images/project-pictures/goodfriend0.jpeg";
 import checkfront from "../images/project-pictures/checkfront.png";
 import tree from "../images/project-pictures/decision-tree.png";
 import website from "../images/project-pictures/website.png";
+import bing from "../images/project-pictures/bing-points.png";
 
 export function ProfileCard({
   title = "",
@@ -65,12 +66,17 @@ const ProjectsPage = () => {
             image={website}
           />
           <ProfileCard
+            title="Microsoft Rewards Bot"
+            description="Microsoft has a rewards system which awards points for a maximum number of daily searches using their search engine, Bing. I wrote a program in Python that automatically completes daily searches. This project was created using Selenium and geckodriver (for Firefox) and implements a headless browser so that your browsing can continue uninterrupted while the program runs. This program can be executed as a cron job to completely eliminate the need for human intervention."
+            time="Dec 2021"
+            buttonTitle="Github"
+            buttonLink="https://github.com/kanrieb/MicrosoftRewards"
+            image={bing}
+          />
+          <ProfileCard
             title="Checkfront Daily Companion"
             description="For my degree capstone project, I worked on a team of 12 to collaborate with a 
-            client company called Checkfront. Our team implemented requirements engineering, software testing 
-            principles, and the Scrum methodology to develop the Daily Companion application. Ultimately, 
-            we were able to successfully develop a PWA optimized for mobile using React, Typescript, and other 
-            libraries (Jest, Tailwind), which displayed information from their API."
+            client company called Checkfront. Our team implemented requirements engineering, software testing principles, and the Scrum methodology to develop the Daily Companion application. Ultimately, we were able to successfully develop a PWA optimized for mobile using React, Typescript, and other libraries (Jest, Tailwind), which displayed information from their API."
             time="May - Aug 2021"
             image={checkfront}
           />
