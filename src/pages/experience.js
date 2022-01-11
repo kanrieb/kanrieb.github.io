@@ -39,6 +39,31 @@ const ExperiencePage = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Jan 2022 - Present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            // icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Redbrick - Assembly
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Software Developer (Part-time)
+            </h4>
+            <p>
+              I will continue to fulfill duties as a full stack developer in a
+              part-time capacity alongside the completion of higher education.
+              These duties include implementing a new front-end test suite with
+              Selenium, creating new features with React, updating SQL queries,
+              and fixing bugs in response to user feedback.
+              <br /> <br />
+              <b>
+                Technical Skills: Testing (Jest/Selenium), React,
+                Javascript/Typescript, Golang, SQL, Version control (Git).
+              </b>
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="Sept - Dec 2021"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             // icon={<WorkIcon />}
@@ -63,7 +88,7 @@ const ExperiencePage = () => {
               <br /> <br />
               <b>
                 Technical Skills: Version control (Git), Testing
-                (Jest/Cucumber), Javascript/Typescript, CI/CD, AWS
+                (Jest/Cucumber), React, Javascript/Typescript, CI/CD, AWS
                 (CodePipeline, Cloudformation, Lambda), Golang.
               </b>
             </p>
