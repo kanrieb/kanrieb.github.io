@@ -1,10 +1,6 @@
 import React from "react";
 import "../App.css";
 import { Background } from "../components/wrapper.js";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
 const EducationPage = () => {

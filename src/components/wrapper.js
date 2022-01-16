@@ -2,8 +2,6 @@ import React from "react";
 import "../App.css";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import background from "../images/gold.jpg";
-import { useHistory, useLocation } from "react-router-dom";
-import { Route, withRouter } from "react-router-dom";
 
 export function Background({ children }) {
   return (

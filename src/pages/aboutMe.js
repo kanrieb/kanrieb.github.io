@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import Wrapper from "../components/wrapper.js";
-import surf from "../images/surfing.png";
 import hiking from "../images/hiking.jpg";
 import "@fortawesome/fontawesome-free/js/all.js";
 
