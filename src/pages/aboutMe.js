@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Wrapper from "../components/wrapper.js";
-import hiking from "../images/hiking.jpg";
+import portrait from "../images/portrait.jpg";
 import "@fortawesome/fontawesome-free/js/all.js";
 
 //include skills here too!
@@ -10,7 +10,7 @@ const AboutPage = () => {
     <Wrapper>
       <div className="flex-about">
         <div className="about-col about-col1">
-          <img src={hiking} className="aboutImg" />
+          <img src={portrait} className="aboutImg" />
         </div>
         <div className="about-col about-col2">
           <div className="about-text">
@@ -19,11 +19,13 @@ const AboutPage = () => {
               <b>KATHRYN RIEB</b>
             </h1>
             <p>
-              I am currently pursuing a Software Engineering degree at the
-              University of Victoria. I enjoy learning and maintaining a variety
-              of skills, and I have done software development work in
-              front/back-end web, database management, and testing. I have also
-              explored mobile app creation and video game development.
+              I am a Software Engineering graduate from the University of
+              Victoria, and I currently work as front-end developer for Assembly
+              Technologies. I enjoy learning and maintaining a variety of
+              skills, and I have work experience in front/back-end web
+              development, database management, CI/CD management, and testing. I
+              also received a degree specialization in data mining and
+              artificial intelligence.
             </p>
             <div className="contact">
               <i className="far fa-envelope"></i>{" "}

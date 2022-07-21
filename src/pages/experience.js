@@ -26,9 +26,21 @@ const ExperiencePage = () => {
         <VerticalTimeline layout="1-column-left">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Sept 2017 - Present"
-            iconStyle={{ background: "green", color: "#fff" }}
+            date="July 2022 - Present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             // icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              St. Joseph Communications (SJC) - Assembly
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Front-End Developer
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Sept 2017 - April 2022"
+            iconStyle={{ background: "green", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
               Bachelor of Software Engineering
@@ -36,6 +48,14 @@ const ExperiencePage = () => {
             <h4 className="vertical-timeline-element-subtitle">
               The University of Victoria
             </h4>
+            <p>
+              Graduated with Distinction
+              <br />
+              <b>
+                Specialization: "Data Mining and Analysis, Artificial
+                Intelligence, and Machine Learning"
+              </b>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -50,9 +70,9 @@ const ExperiencePage = () => {
               Software Developer (Part-time)
             </h4>
             <p>
-              I will continue to fulfill duties as a full stack developer in a
+              I continued to fulfill duties as a full stack developer in a
               part-time capacity alongside the completion of higher education.
-              These duties include implementing a new front-end test suite with
+              These duties included implementing a new front-end test suite with
               Selenium, creating new features with React, updating SQL queries,
               and fixing bugs in response to user feedback.
               <br /> <br />

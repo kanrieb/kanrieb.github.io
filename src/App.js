@@ -7,7 +7,6 @@ import LocalNav from "./components/navbar-layout";
 
 import AboutPage from "./pages/aboutMe";
 import ProjectsPage from "./pages/projects";
-import EducationPage from "./pages/education";
 import ExperiencePage from "./pages/experience";
 import SkillsPage from "./pages/skills";
 import Resume from "./pages/resume";
@@ -33,10 +32,10 @@ const routes = [
     path: "/projects",
     main: () => <ProjectsPage />,
   },
-  {
-    path: "/resume",
-    main: () => <Resume />,
-  },
+  // {
+  //   path: "/resume",
+  //   main: () => <Resume />,
+  // },
   // {
   //   path: "/kathryn-rieb/skills",
   //   main: () => <SkillsPage />,
@@ -70,9 +69,7 @@ function App() {
                     {/* <Icon name="user" /> */}
                     ABOUT
                   </Nav.Link>
-                  {/* <Nav.Link href="/kathryn-rieb/education">
-                    EDUCATION
-                  </Nav.Link> */}
+
                   <Nav.Link href="/experience">
                     {/* <Icon name="briefcase" />  */}
                     EXPERIENCE
@@ -84,7 +81,7 @@ function App() {
                   {/* <Nav.Link href="/kathryn-rieb/skills">
                     SKILLS
                   </Nav.Link> */}
-                  <Nav.Link href="/resume">RESUME</Nav.Link>
+                  {/* <Nav.Link href="/resume">RESUME</Nav.Link> */}
                 </Nav>
               </div>
               <div className="social-container">
