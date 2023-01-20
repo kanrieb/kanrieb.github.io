@@ -101,10 +101,10 @@ const ExperiencePage = () => {
               transitioned to working on Statera, which is an internal tool that
               collects and analyzes site traffic and other data. I streamlined
               the deployment process for many of the repositories by creating
-              custom pipelines using AWS, with the ability to post messages to
-              Slack channels and update internal deploy tracking methods.
-              Additionally, I implemented new features and fixed bugs in the UI
-              throughout my co-op in response to user feedback.
+              custom pipelines using AWS resources, with the ability to post
+              messages to Slack channels and update internal deploy tracking
+              methods. Additionally, I implemented new features and fixed bugs
+              in the UI throughout my co-op in response to user feedback.
               <br /> <br />
               <b>
                 Technical Skills: Version control (Git), Testing
