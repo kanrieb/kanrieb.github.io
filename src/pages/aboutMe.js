@@ -32,7 +32,7 @@ const AboutPage = () => {
               <p1>&emsp;kanrieb@gmail.com</p1>
               <br />
               <i className="fas fa-map-marker-alt"></i>{" "}
-              <p1>&emsp;&nbsp;Victoria, BC</p1>
+              <p1>&emsp;&nbsp;Montreal, QC</p1>
             </div>
           </div>
         </div>

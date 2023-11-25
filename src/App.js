@@ -56,7 +56,7 @@ function App() {
                 <br />
                 <span className="nav-name"> Kathryn Rieb</span>
                 <br />
-                <span className="nav-sub">Software Engineering Student</span>
+                <span className="nav-sub">Software Developer (EIT)</span>
               </div>
 
               <div className="links">
