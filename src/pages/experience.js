@@ -34,8 +34,20 @@ const ExperiencePage = () => {
               St. Joseph Communications (SJC) - Assembly
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Front-End Developer
+              Software Developer
             </h4>
+            <p>
+              In this role, I continuously program new features and bug fixes
+              for all company properties. These new features include
+              experimental layouts for the wesites themselves, as well as
+              internal tools. I have developed custom Wordpress-integrated
+              Artificial Intelligence (AI) tools to aid content managers in
+              article creation and extension. Additionally, I helped maximize
+              revenue from layout experiments by creating a new internal
+              reporting dashboard to track metrics. Recently I supervised
+              multiple website migrations, coordinating between developer teams
+              and clients and facilitating requirements.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
