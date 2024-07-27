@@ -20,9 +20,9 @@ const AboutPage = () => {
             </h1>
             <p>
               I am a Software Engineering graduate from the University of
-              Victoria, and I currently work as front-end developer for Assembly
-              Technologies. I enjoy learning and maintaining a variety of
-              skills, and I have work experience in front/back-end web
+              Victoria, and I currently work as a software developer for
+              Assembly Technologies. I enjoy learning and maintaining a variety
+              of skills, and I have work experience in front/back-end web
               development, database management, CI/CD management, and testing. I
               also received a degree specialization in data mining and
               artificial intelligence.
