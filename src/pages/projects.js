@@ -6,6 +6,7 @@ import checkfront from "../images/project-pictures/checkfront.png";
 import tree from "../images/project-pictures/decision-tree.png";
 import website from "../images/project-pictures/website.png";
 import bing from "../images/project-pictures/bing-points.png";
+import mny from  "../images/project-pictures/mny.png";
 
 export function ProfileCard({
   title = "",
@@ -57,6 +58,17 @@ const ProjectsPage = () => {
         }}
       >
         <div className="card-container">
+        <ProfileCard
+            title="Custom Squarespace Website"
+            description="I recently designed and developed a custom Squarespace website for an artist who needed an elegant and easy-to-manage platform to showcase their work, share news, and highlight upcoming gallery showings. Squarespace provided a solid foundation, and I also implemented custom coding solutions to enhance the site.
+Some key features I built include a fullscreen sliding gallery display, a continuous events section, and dynamic logo placements that adapt to different sections of the site. These customizations ensured the site remained visually striking while being easy for the artist to update independently.
+
+If you're looking for a new website or custom solutions for your existing one, I'd love to help! Feel free to reach out to discuss your project."
+            time="Jan 2025"
+            buttonTitle="mny.ca"
+            buttonLink="https://mny.ca"
+            image={mny}
+          />
           <ProfileCard
             title="Personal Website"
             description="I always enjoyed the idea of having a place to showcase my skills and experience, and since I enjoy front-end development I decided to create my own website. I have had several versions of personal websites in the past, and will likely continue to experiment as my skills improve and my design preferences change. This portfolio was written using React, and all the code is available on Github."
